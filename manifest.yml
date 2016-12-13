@@ -1,16 +1,16 @@
 applications:
-- name: slack-invite-automation
-  host: slack-invite-automation
+- name: leancoffeebe-slack-inviter
+  host: leancoffeebe-slack-inviter
   command: bin/www
   instances: 1
   memory: 128M
   disk_quota: 128M
   env:
     # your community or team name to display on join page
-    COMMUNITY_NAME: SocketIO
+    COMMUNITY_NAME: LeanCoffeeBelgium
 
-    # your slack team url (ex: socketio.slack.com)
-    SLACK_URL: socketio.slack.com
+    # your slack team url (ex: leancoffeebelgium.slack.com)
+    SLACK_URL: leancoffeebelgium.slack.com
 
     # access token of slack
     # You can generate it in https://api.slack.com/web#auth
